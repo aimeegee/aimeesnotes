@@ -1,5 +1,4 @@
-baseURL = "https://athul.github.io/archie/"
+baseURL = "https://aimeegee.github.io/aimeesnotes"
 languageCode = "en-us"
-title = "Archie"
+title = "Aimee's Note"
 theme="archie"
-copyright = "© Athul"

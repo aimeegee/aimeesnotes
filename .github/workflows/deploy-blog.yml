@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - new-site
 
 jobs:
   build:
@@ -19,7 +20,7 @@ jobs:
           hugo-version: 'latest'
 
       - name: Build Hugo site
-        run: hugo --minify
+        run: hugo --minify --theme archie
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
