@@ -43,3 +43,5 @@ Replace https://your-site-url.com/ with the URL of your site, en-us with the lan
 
 # Resources
 See documentation at https://gohugo.io/.
+
+[Directory Structure](https://gohugo.io/getting-started/directory-structure/)
