@@ -1,6 +1,5 @@
-# aimeesnotes
+# Aimees Notes
 Notes of everything
-
 
 ## Steps to create the blog repo
 1. Create a new repository on GitHub
@@ -10,6 +9,7 @@ Notes of everything
 3. Navigate to the root directory of the cloned repository.
 
 4. Initialize a new Hugo site using `hugo new site <site-name>`. Replace <site-name> with the name of your site.
+   * I find this will create a directory `<site-name>` inside the repo which could cause some trouble when building from the workflow. Just copy all content to the root directory would be much easier.
 
 5. Add the Hugo theme you want to use as a Git submodule using `git submodule add <theme-repo-url> themes/<theme-name>`. Replace <theme-repo-url> with the URL of the Git repository for the theme you want to use, and <theme-name> with the name of the theme.
 
@@ -27,18 +27,19 @@ Replace https://your-site-url.com/ with the URL of your site, en-us with the lan
 
 8. Commit the changes to your repository using git add, git commit, and git push.
 
-## Create a blank Hugh project
-hugo new site aimees-notes
-Congratulations! Your new Hugo site was created in /Users/gengna/Develop/aimeesnotes/aimees-notes.
-
-Just a few more steps...
-
-1. Change the current directory to /Users/gengna/Develop/aimeesnotes/aimees-notes.
-2. Create or install a theme:
+## Theme
+1. Create or install a theme:
    - Create a new theme with the command "hugo new theme <THEMENAME>"
    - Install a theme from https://themes.gohugo.io/
-3. Edit hugo.toml, setting the "theme" property to the theme name.
-4. Create new content with the command "hugo new content <SECTIONNAME>/<FILENAME>.<FORMAT>".
-5. Start the embedded web server with the command "hugo server --buildDrafts".
+2. Edit config.toml, setting the "theme" property to the theme name.
 
+## Content
+4. Create new content with the command "hugo new content <SECTIONNAME>/<FILENAME>.<FORMAT>".
+
+
+## Preview locally
+* Run cmd `hugo build` at the root directory
+* Run `hugo serve`
+
+# Resources
 See documentation at https://gohugo.io/.
