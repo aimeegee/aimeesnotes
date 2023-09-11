@@ -33,12 +33,14 @@ Replace https://your-site-url.com/ with the URL of your site, en-us with the lan
    - Install a theme from https://themes.gohugo.io/
 2. Edit config.toml, setting the "theme" property to the theme name.
 
+## Config
+[Set up /config folder](https://gohugo.io/getting-started/configuration/)
+
 ## Content
 4. Create new content with the command "hugo new content <SECTIONNAME>/<FILENAME>.<FORMAT>".
 
-
 ## Preview locally
-* Run cmd `hugo build` at the root directory
+* Run cmd `hugo build` or `hugo` at the root directory
 * Run `hugo serve`
 
 # Resources
