@@ -18,6 +18,3 @@ menu:
     - name: "Tags"
       weight: 4
       url: "/tags/"
-    - name: "About"
-      weight: 5
-      url: "/about/"
