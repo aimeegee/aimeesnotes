@@ -11,5 +11,7 @@
   <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
 </h3>
 
+{{ .Summary | truncate 200 | markdownify }}
+
 {{ end }}
 {{ end }}

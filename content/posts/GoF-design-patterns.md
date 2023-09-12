@@ -4,8 +4,10 @@ date: 2023-09-11T20:45:23+10:00
 draft: false
 categories:
     - 'dev'
+tags:
+    - 'system-design'
+    - 'interview'
 ---
-
 ## 创建型模式(Creational Patterns)
 创建型模式用于处理对象的创建，以适合在给定情况下使用。
 1. [单例模式(Singleton Pattern)](singleton-pattern)

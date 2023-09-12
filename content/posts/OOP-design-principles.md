@@ -4,6 +4,9 @@ date: 2023-09-11T18:58:42+10:00
 draft: false
 categories:
     - 'dev'
+tags:
+    - 'system-design'
+    - 'interview'
 ---
 
 # 常见的OOP设计原则(Object-Oriented Programming)

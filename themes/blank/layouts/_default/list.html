@@ -3,7 +3,8 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 {{ range .Pages }}
-<!-- display the title like [categories][date][title] -->
+
+<!-- display the post titles like [categories][date][title] -->
 <h3>
   {{ range .Params.categories }}
   <a href="{{ " /categories/" | relLangURL }}{{ . | urlize }}">[{{ . }}]</a>
@@ -16,7 +17,8 @@
 
   <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
 </h3>
-{{ .Summary }}
+
+{{ .Summary | truncate 200 | markdownify }}
 
 {{ end }}
 {{ end }}
