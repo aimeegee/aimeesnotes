@@ -17,6 +17,35 @@ footer {
 }
 
 a {
-  color: #00e;
+  color: #00A8A8;
   text-decoration: none;
+}
+
+.centered {
+  margin: 0 auto;
+}
+
+/* Default styles for the menu */
+.menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  /* margin-left: -14px; */
+  overflow: hidden;
+}
+
+.menu li {
+  display: inline-block;
+}
+
+.menu li a {
+  display: block;
+  color: #333;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.menu li a:hover {
+  background-color: #00A8A8;
 }

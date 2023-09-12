@@ -1,8 +1,22 @@
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
-  {{ range .Pages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
+
+<h1>{{ .Title }}</h1>
+{{ .Content }}
+{{ range .Pages }}
+<!-- display the title like [categories][date][title] -->
+<h3>
+  {{ range .Params.categories }}
+  <a href="{{ " /categories/" | relLangURL }}{{ . | urlize }}">[{{ . }}]</a>
   {{ end }}
+
+  <!-- only display date in Home and Posts tab -->
+  {{ if or (eq .Section "home") (eq .Section "posts") }}
+  {{ .Date.Format "2006-01-02" }}
+  {{ end }}
+
+  <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+</h3>
+{{ .Summary }}
+
+{{ end }}
 {{ end }}

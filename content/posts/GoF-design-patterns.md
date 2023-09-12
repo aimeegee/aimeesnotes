@@ -1,9 +1,10 @@
-+++
-title = 'GoF Design Patterns'
-date = 2023-09-11T20:45:23+10:00
-draft = false
-summary = ""
-+++
+---
+title: 'GoF Design Patterns'
+date: 2023-09-11T20:45:23+10:00
+draft: false
+categories:
+    - 'dev'
+---
 
 ## 创建型模式(Creational Patterns)
 创建型模式用于处理对象的创建，以适合在给定情况下使用。

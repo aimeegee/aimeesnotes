@@ -1,0 +1,23 @@
+baseURL: "https://aimeegee.github.io/aimeesnotes"
+languageCode: "en-us"
+title: "Aimee's Note"
+theme: "blank"
+
+# menu of home, posts, categories, tag
+menu:
+  main:
+    - name: "Home"
+      weight: 1
+      url: "/"
+    - name: "Posts"
+      weight: 2
+      url: "/posts/"
+    - name: "Categories"
+      weight: 3
+      url: "/categories/"
+    - name: "Tags"
+      weight: 4
+      url: "/tags/"
+    - name: "About"
+      weight: 5
+      url: "/about/"

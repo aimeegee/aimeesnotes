@@ -1,8 +1,10 @@
-+++
-title = 'OOP Design Principles'
-date = 2023-09-11T18:58:42+10:00
-draft = false
-+++
+---
+title: 'OOP Design Principles'
+date: 2023-09-11T18:58:42+10:00
+draft: false
+categories:
+    - 'dev'
+---
 
 # 常见的OOP设计原则(Object-Oriented Programming)
 1. 单一职责原则(Single Responsibility Principle - SRP):

@@ -1,2 +1,9 @@
 <h1>{{ site.Title }}</h1>
-{{ partial "menu.html" (dict "menuID" "main" "page" .) }}
+<!-- {{ partial "menu.html" (dict "menuID" "main" "page" .) }} -->
+
+<!-- nav bar -->
+<ul class="menu">
+    {{ range .Site.Menus.main }}
+    <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+    {{ end }}
+</ul>
