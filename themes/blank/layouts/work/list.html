@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+{{ range where .Site.Pages "Section" "work" }}
+<article>
+  <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+  <p>{{ .Summary }}</p>
+</article>
+{{ end }}
+
+{{ end }}

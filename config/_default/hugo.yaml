@@ -18,3 +18,9 @@ menu:
     - name: "Tags"
       weight: 4
       url: "/tags/"
+    - name: "Work"
+      weight: 5
+      url: "/work/"
+    - name: "Study"
+      weight: 6
+      url: "/study/"

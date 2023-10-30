@@ -5,7 +5,8 @@
 {{ range .Pages }}
 
 <!-- display the post titles like [categories][date][title] -->
-<h3>
+<h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
+<h4>
   {{ range .Params.categories }}
   <a href="{{ " /categories/" | relLangURL }}{{ . | urlize }}">[{{ . }}]</a>
   {{ end }}
@@ -14,9 +15,7 @@
   {{ if or (eq .Section "home") (eq .Section "posts") }}
   {{ .Date.Format "2006-01-02" }}
   {{ end }}
-
-  <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
-</h3>
+</h4>
 
 {{ .Summary | truncate 200 | markdownify }}
 
