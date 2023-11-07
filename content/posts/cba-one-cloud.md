@@ -2,6 +2,8 @@
 title: "One Cloud"
 date: 2023-10-11T10:07:00+11:00
 draft: true
+categories:
+    - 'work'
 ---
 
 # Our AWS workspace

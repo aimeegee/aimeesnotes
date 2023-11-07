@@ -9,18 +9,18 @@ menu:
     - name: "Home"
       weight: 1
       url: "/"
-    - name: "Posts"
-      weight: 2
-      url: "/posts/"
     - name: "Categories"
-      weight: 3
+      weight: 2
       url: "/categories/"
     - name: "Tags"
-      weight: 4
+      weight: 3
       url: "/tags/"
-    - name: "Work"
+    - name: "Posts"
+      weight: 4
+      url: "/posts/"
+    - name: "Dev"
       weight: 5
-      url: "/work/"
+      url: "/dev/"
     - name: "Study"
       weight: 6
       url: "/study/"
