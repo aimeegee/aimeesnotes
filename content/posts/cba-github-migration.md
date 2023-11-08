@@ -2,6 +2,8 @@
 title: 'Github Migration Project'
 date: 2023-10-10T20:45:23+10:00
 draft: false
+categories:
+    - 'work'
 ---
 
 This project is to migrate all repos from GHES to GHEC. 

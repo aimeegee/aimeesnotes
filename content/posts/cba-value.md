@@ -2,6 +2,8 @@
 title: Value
 date: 2023-10-11T13:10:46+11:00
 draft: true
+categories:
+    - 'work'
 ---
 
 Care:

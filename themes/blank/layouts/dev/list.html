@@ -1,6 +1,6 @@
 {{ define "main" }}
 
-{{ range where .Site.Pages "Section" "work" }}
+{{ range where .Site.Pages "Section" "dev" }}
 <article>
   <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
   <p>{{ .Summary }}</p>

@@ -2,6 +2,8 @@
 title: "Pace"
 date: 2023-10-11T09:47:11+11:00
 draft: false
+categories:
+    - 'work'
 ---
 
 ## Organizational Pace
