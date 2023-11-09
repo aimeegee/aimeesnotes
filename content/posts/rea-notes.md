@@ -2,6 +2,9 @@
 title: "REA Notes"
 date: 2023-11-09T10:55:35+11:00
 draft: false
+tags:
+    - 'life'
+    - 'realestate'
 ---
 ### 公屋
 * Google `public housing heat map` 来查看哪里公屋多
