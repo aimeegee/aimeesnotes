@@ -7,9 +7,9 @@
 <!-- display the post titles like [categories][date][title] -->
 <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
 <h4>
-  {{ range .Params.categories }}
+  <!-- {{ range .Params.categories }}
   <a href="{{ " /categories/" | relLangURL }}{{ . | urlize }}">[{{ . }}]</a>
-  {{ end }}
+  {{ end }} -->
 
   <!-- only display date in Home and Posts tab -->
   {{ if or (eq .Section "home") (eq .Section "posts") }}

@@ -4,9 +4,10 @@
 
 <!-- display the title like [categories][date][title] -->
 <h3>
-  {{ range .Params.categories }}
+  <!-- {{ range .Params.categories }}
   <a href="{{ " /categories/" | relLangURL }}{{ . | urlize }}">[{{ . }}]</a>
-  {{ end }}
+  {{ end }} -->
+  
   {{ .Date.Format "2006-01-02" }}
   <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
 </h3>
