@@ -6,6 +6,31 @@ tags:
     - 'life'
     - 'realestate'
 ---
+## 结构
+
+### 顶
+
+### 墙
+
+结构框架：钢筋混凝土（太贵不看），木架，轻钢
+
+轻钢
+* 优点
+  * 防火防雷
+  * 防水，不变形
+  * 没有白蚁
+* 缺点
+  * 响 - 这个有人说有有人说没有，我在burwood没听到过
+  * 冷凝水
+  * 软装不好钉东西
+
+### 地
+
+地基：架空（1980之前），不架空（泡沫/纯混凝土）
+
+
+## 选房Tips
+
 ### 公屋
 * Google `public housing heat map` 来查看哪里公屋多
 * NRAS - National Rental Affordability Scheme
