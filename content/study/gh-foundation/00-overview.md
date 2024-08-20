@@ -1,7 +1,7 @@
 ---
 title: "GitHub Foundation"
 date: 2024-08-08
-draft: true
+draft: false
 categories:
     - 'study'
 ---

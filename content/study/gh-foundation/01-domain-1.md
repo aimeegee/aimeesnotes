@@ -1,7 +1,7 @@
 ---
 title: '01 Domain 1'
 date: 2024-08-08T09:22:34+10:00
-draft: true
+draft: false
 ---
 
 Git doesn’t track empty folder, add a .git-keep file to make it track

@@ -1,7 +1,7 @@
 ---
 title: '02 Domain 2'
 date: 2024-08-08T09:23:41+10:00
-draft: true
+draft: false
 ---
 # GitHub Repository
 https://github.com/Andresmup/github-foundations/tree/main/09_REPOSITORIES
@@ -14,7 +14,7 @@ If a repository contains more than one README file, then the file shown is chose
 
 Repo security settings
 
-## Issue, Discussion, Project
+## Issue, Discussion, Project (more details in D3)
 ### Issue
 * lightweight task tracking
 * If you pass from enable to disable and decide to enable issues again in the future, any issues that were previously added will be available.
