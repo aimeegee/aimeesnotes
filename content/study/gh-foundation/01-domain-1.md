@@ -71,6 +71,7 @@ What is a Git Gist
 `ssh -T git@github.com`
 
 ### TODO: GitHub Deploy Key/Token vs PAT
+[guide on deploy keys](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/managing-deploy-keys#deploy-keys)
 
 ## APIs 
 * CLI - No need to pass a token every request because the authentication is done by the CLI.
