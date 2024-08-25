@@ -30,6 +30,8 @@ Interact with codespaces
 
 ## [Open Source](https://github.com/Andresmup/github-foundations/blob/main/21_OPEN_SOURCE/Readme.md)
 
+[How to Deploy a GitHub Codespace](https://www.youtube.com/watch?v=_01iCF9sO1c)
+
 ### License
   * Open Source Iniciative (OSI) - a non-profit organization
   * When creating a new repo (or before it) Github makes it easy to quickly add a selected open source license to your repo.
