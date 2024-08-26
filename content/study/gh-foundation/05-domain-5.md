@@ -15,6 +15,7 @@ draft: true
 * Can add draft issue - useful to quickly collect ideas, doesn’t belong to a repo. Only exist in projec
 * Can create iteration task
 * Set priority (High, medium, low), group issues by priority
+* different views - roadmap, table, board
 
 ## Add issues
 * supports add to project by copy issue url, add by auto workflow
@@ -25,6 +26,6 @@ draft: true
 * to easy apply replies you frequently used over and over
 * In settings -> Code, planning, and automation
 
-## Assign issue/PR to users
+## [Assign issue/PR to users](https://docs.github.com/en/issues/tracking-your-work-with-issues/assigning-issues-and-pull-requests-to-other-github-users)
 
 
