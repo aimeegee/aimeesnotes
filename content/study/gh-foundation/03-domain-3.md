@@ -16,4 +16,23 @@ draft: true
   * `Projects`: Projects是一个**看板式的项目管理工具**，可以帮助你组织issue和pull请求。你**可以创建卡片，将它们分配给列，然后移动它们**来跟踪进度。
   * Actions: Actions是一个持续集成/持续部署（CI/CD）工具，可以自动化你的开发工作流程。你可以创建自定义的工作流，例如自动运行测试，构建和部署你的代码。
 
-## Issue
+## [Issue]()
+
+## [PR](https://github.com/Andresmup/github-foundations/blob/main/11_PULL_REQUESTS/Readme.md)
+* If other collaborators branch the project before a force push, the force push may overwrite commits that collaborators based their work on.
+* Code owners are not automatically requested to review draft pull requests.
+* You can link Issues to PR so that the state of the pull request will automatically close the issue. - The PR must be on the default branch.
+
+## [Discussion]()
+
+## [Notification]()
+
+## [Gist]()
+
+## [Wiki](https://github.com/Andresmup/github-foundations/blob/main/16_WIKI/Readme.md)
+
+## [Pages](https://github.com/Andresmup/github-foundations/tree/main/17_PAGES)
+* need to create a public repo with the repo name beging <username>.github.io
+* your website will be available in the domain <username>.github.io
+
+### How to deploy pages?
