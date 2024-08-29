@@ -12,6 +12,8 @@ Resources
 [7 domains](https://assets.ctfassets.net/wfutmusr1t3h/1kmMx7AwI4qH8yIZgOmQlP/79e6ff1dfdee589d84a24dd763b1eef7/github-foundations-exam-study-guide__1_.pdf)
 [26 notes](https://github.com/Andresmup/github-foundations/tree/main/00_THE_BASICS) 
 [Practice tests](https://ghcertified.com/practice_tests/)
+[exam system test](https://syscheck.bridge.psiexams.com/)
+[my booked test](https://test-takers.psiexams.com/github/manage/my-tests)
 
 * Domain 1: Introduction to Git and GitHub (8 notes)
     * Git and GitHub Basics
